@@ -23,22 +23,22 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H7P-JR-141">
-                                <rect key="frame" x="38" y="233" width="109" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Message A"/>
-                                <connections>
-                                    <action selector="showMessagePressedA:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9jv-ZI-m3R"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iBC-1x-03r">
-                                <rect key="frame" x="261" y="233" width="108" height="35"/>
+                                <rect key="frame" x="238" y="233" width="108" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Message B"/>
                                 <connections>
                                     <action selector="showMessageB:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HYc-1T-wQF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H7P-JR-141">
+                                <rect key="frame" x="46" y="233" width="109" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Message A"/>
+                                <connections>
+                                    <action selector="showMessagePressedA:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9jv-ZI-m3R"/>
                                 </connections>
                             </button>
                         </subviews>
